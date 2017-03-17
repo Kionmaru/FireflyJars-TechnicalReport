@@ -1,0 +1,22 @@
+Circuit: OP_TRI_GEN.CIR - OPAMP TRIANGLE GENERATOR
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Wed Dec 14 14:33:25 2016
+Total elapsed time: 0.094 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6376
+traniter = 6376
+tranpoints = 1849
+accept = 1634
+rejected = 215
+matrix size = 26
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.42 KB object code size  0.5/0.4/[0.1]
+Matrix Compiler2: 1.89 KB object code size  0.3/0.4/[0.2]
+
+

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\kionmaru\Schematics\Firefly Jars\Firefly Jars.sch</source>
+    <date>12/20/2016 5:59:24 AM</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Firefly Jars.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>ATTINY85-P</value>
+      <footprint>DIP8</footprint>
+      <libsource lib="atmel" part="ATTINY85-P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584B52AD</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductors:SELF-WE-PD-XXL</footprint>
+      <datasheet>http://www.abracon.com/Magnetics/power/ASPI-1040HI.pdf</datasheet>
+      <fields>
+        <field name="Part No.">ASPI-1040HI-100M-T05</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584BB7DB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584BBD4E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MBR20100CT</value>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584F1016</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-rr7.pdf</datasheet>
+      <fields>
+        <field name="Part No.">RR71C101MDN1</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584F1080</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>27</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT27R0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584F1226</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5</footprint>
+      <datasheet>http://www.nichicon.co.jp/english/products/pdfs/e-rr7.pdf</datasheet>
+      <fields>
+        <field name="Part No.">RR71C101MDN1</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585928E4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>SiA436DJ DGS</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-6_Handsoldering</footprint>
+      <datasheet>https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjIuee83YLRAhVKwlQKHR5sCTYQFghDMAA&amp;url=http%3A%2F%2Fwww.vishay.com%2Fdocs%2F63535%2Fsia436dj.pdf&amp;usg=AFQjCNHzil25nGm4p5iWNXBk7NC8Cwca5g&amp;sig2=SeyBavHTBsmOYe4kZvF3tQ</datasheet>
+      <fields>
+        <field name="Part No.">SiA436DJ</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58592CF3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>300</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <fields>
+        <field name="Part No.">CF14JT300R</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58593F6F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>KA431LDTF</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/KA/KA431L.pdf</datasheet>
+      <libsource lib="references" part="TL431PS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58594096</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM393</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/LM393-D.PDF</datasheet>
+      <fields>
+        <field name="Part No.">LM393N</field>
+      </fields>
+      <libsource lib="linear" part="LM393"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585944D7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT2K00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585947DC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT2K00</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58594855</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58594AB8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58596829</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <fields>
+        <field name="Part No.">Unspec'd - Not in original schematic.</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585A0169</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <datasheet>http://www.cree.com/~/media/Files/Cree/LED-Components-and-Modules/HB/Data-Sheets/1366-C4SMM-RJF-GJF-BJF.pdf</datasheet>
+      <fields>
+        <field name="Part No.">C4SMM-RJF-CS24QBB1</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585A39D8</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>SiA436DJ DGS</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-6_Handsoldering</footprint>
+      <datasheet>https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjIuee83YLRAhVKwlQKHR5sCTYQFghDMAA&amp;url=http%3A%2F%2Fwww.vishay.com%2Fdocs%2F63535%2Fsia436dj.pdf&amp;usg=AFQjCNHzil25nGm4p5iWNXBk7NC8Cwca5g&amp;sig2=SeyBavHTBsmOYe4kZvF3tQ</datasheet>
+      <fields>
+        <field name="Part No.">SiA436DJ</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585A3CDC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SiA436DJ DGS</value>
+      <footprint>TO_SOT_Packages_SMD:SC-70-6_Handsoldering</footprint>
+      <datasheet>https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjIuee83YLRAhVKwlQKHR5sCTYQFghDMAA&amp;url=http%3A%2F%2Fwww.vishay.com%2Fdocs%2F63535%2Fsia436dj.pdf&amp;usg=AFQjCNHzil25nGm4p5iWNXBk7NC8Cwca5g&amp;sig2=SeyBavHTBsmOYe4kZvF3tQ</datasheet>
+      <fields>
+        <field name="Part No.">SiA436DJ</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585A77C2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM7mm</footprint>
+      <datasheet>https://www.seielect.com/Catalog/SEI-CF_CFM.pdf</datasheet>
+      <fields>
+        <field name="Part No.">CF14JT10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585A8569</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY25-P">
+      <aliases>
+        <alias>ATTINY45-P</alias>
+        <alias>ATTINY85-P</alias>
+      </aliases>
+      <description>PDIP8, 2k Flash, 128B SRAM, 128B EEPROM, Debug Wire</description>
+      <docs>http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY25-P</field>
+        <field name="Footprint">DIP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/dW/ADC0/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3(XTAL1/CLKI/OC1B/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(XTAL2/CLKO/OC1B/ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/USCK/SCL/T0/INT0/ADC1/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2903">
+      <aliases>
+        <alias>LM293</alias>
+        <alias>LM393</alias>
+        <alias>LM193</alias>
+      </aliases>
+      <description>Dual Voltage Comparator</description>
+      <docs>ns/lm193.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2903</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="openCol"/>
+        <pin num="2" name="_" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="_" type="input"/>
+        <pin num="7" name="~" type="openCol"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_DGS">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="references" part="TL431PS">
+      <description>Shunt Regulator, MSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>MSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TL431PS</field>
+        <field name="Footprint">MSOP8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="6" name="A" type="passive"/>
+        <pin num="8" name="REF" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="references">
+      <uri>C:\Program Files\KiCad\share\kicad\library\references.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Vdd">
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R5-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="9" name="attinyADC">
+      <node ref="IC1" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="10" name="Reg-vss">
+      <node ref="U1" pin="4"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D1" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C1-Pad2)">
+      <node ref="IC1" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="D1" pin="8"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="14" name="/attinyPWM">
+      <node ref="IC1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="15" name="Reg-vdd">
+      <node ref="R8" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="19" name="attinyLEDPWM">
+      <node ref="IC1" pin="5"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="20" name="Vss">
+      <node ref="Q2" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+  </nets>
+</export>
